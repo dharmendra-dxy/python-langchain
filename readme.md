@@ -22,4 +22,23 @@ pip install python-dotenv
 
 ## Langchain components - Chat Models
 
+## RAGS  - Retrieval Argumented Generations
+
+Problems it solve:
+ - RAGs give additional knowledge to LLMs
+ - RAGs provide extra knowledge to LLMS that gives better answer to our prompts
+
+Key Concepts:
+ - Vector Databases
+ - Vector Embeddings
+
+
+Install chroma db and langchain-chroma (it is a wrapper that connects langchain applications with vector store)
+
+```
+pip install chromadb
+pip install langchain-chroma
+
+```
+
 
